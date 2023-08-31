@@ -1,0 +1,14 @@
+.comentario {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.comentario:hover {
+    background-color: #f5f5f5;
+}
+
+.comentario:hover + .comentario {
+    margin-top: 5px;
+}
